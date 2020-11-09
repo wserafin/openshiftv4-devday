@@ -110,7 +110,7 @@ Containers:
 *Delete deployment*
 
 ```
-$ oc delete dc/crashing-app
+$ oc delete deployment/crashing-app
 ```
 
 === Invalid ConfigMap or Secret
@@ -246,7 +246,7 @@ $ oc logs bc/nodejs-ex -f
 
 Provide a bad health configuration to OpenShift
 ```
-$ oc set probe dc/nodejs-ex --liveness --readiness --initial-delay-seconds=30 --failure-threshold=3 --get-url=http://:8080/healthz
+$ oc set probe deployment/nodejs-ex --liveness --readiness --initial-delay-seconds=30 --failure-threshold=3 --get-url=http://:8080/healthz
 ```
 
 Use `oc events` to view the health status.
