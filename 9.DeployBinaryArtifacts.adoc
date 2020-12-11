@@ -37,7 +37,7 @@ We have provided a warfile for a simple petstore application
 https://raw.githubusercontent.com/RedHatWorkshops/ps/master/deployments/ROOT.war[here]. If you want to use this war file
 
 ```
-$ cd /binarytest/deployments/  
+$ cd ../../binarytest/deployments/  
 
 $ wget https://raw.githubusercontent.com/RedHatWorkshops/ps/master/deployments/ROOT.war
 
