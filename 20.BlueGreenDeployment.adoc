@@ -28,10 +28,10 @@ the second application (green).
 
 == Create a new project
 
-*Remember* to substitute the username
+****REMEMBER**** to substitute the $UserName below !!!!
 
 ....
-$ oc new-project bluegreen-UserName --display-name="Blue Green Project" --description="Blue Green Project"
+$ oc new-project bluegreen-$UserName --display-name="Blue Green Project" --description="Blue Green Project"
 ....
 
 == Deploy Blue Version and Test
